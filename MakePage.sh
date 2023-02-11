@@ -7,3 +7,6 @@ clear
 ufw allow 'Apache'
 clear
 rm /var/www/html/*
+clear
+cd SimpleHtml/Under_Construction
+mv * /var/www/html
