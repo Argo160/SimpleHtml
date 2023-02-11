@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+ body {
+    background: url(bg.png);
+	direction:rtl;
+}
+.bg {
+	width: 1024px;
+	margin: 0px auto 0px auto;
+}
+.txt {
+	font: 80px 'B Yekan';
+	color: #FFF;
+	margin-top: -300px;
+}
+.txt_btn {
+	font: 30px 'B Yekan';
+	color: #FFF;
+}
+.one {
+	animation:animated_div 7s infinite linear;
+	-moz-animation:animated_div 7s infinite linear;
+	-webkit-animation:animated_div 7s infinite linear;
+	-o-animation:animated_div 7s infinite linear;
+	background: url(1.png);
+	width: 350px;
+	height: 350px;
+	margin: -470px 0 0 0;
+	float: left;
+}
+.two {
+	animation:two 5s infinite linear;
+	-moz-animation:two 5s infinite linear;
+	-webkit-animation:two 5s infinite linear;
+	-o-animation:two 5s infinite linear;
+	background: url(2.png);
+	width: 204px;
+	height: 202px;
+	margin: -200px 0px 0 0;
+	position:relative;
+	right: -200px;
+	float: left;
+}
+.tree {
+	animation:tree 2s infinite linear;
+	-moz-animation:tree 2s infinite linear;
+	-webkit-animation:tree 2s infinite linear;
+	-o-animation:tree 2s infinite linear;
+	background: url(3.png);
+	width: 118px;
+	height: 117px;
+	margin: -145px 0px 0 0;
+	position:relative;
+	right: 95px;
+	float: left;
+}
+.shadow {
+	background:url(shadow.png);
+	width: 450px;
+	height: 181px;
+	float: left;
+	margin: -55px -220px;
+}
+@keyframes animated_div
+{
+0%		{transform: rotate(0deg);}
+100%	{transform: rotate(360deg);}
+}
+
+@-webkit-keyframes animated_div
+{
+0%		{transform: rotate(0deg);}
+100%	{transform: rotate(360deg);}
+}
+
+@-moz-keyframes animated_div
+{
+0%		{transform: rotate(0deg);}
+100%	{transform: rotate(360deg);}
+}
+
+@-o-keyframes animated_div
+{
+0%		{transform: rotate(0deg);}
+100%	{transform: rotate(360deg);}
+}
+@keyframes two
+{
+0%		{transform: rotate(360deg);}
+100%	{transform: rotate(0deg);}
+}
+
+@-webkit-keyframes two
+{
+0%		{transform: rotate(360deg);}
+100%	{transform: rotate(0deg);}
+}
+
+@-moz-keyframes two
+{
+0%		{transform: rotate(360deg);}
+100%	{transform: rotate(0deg);}
+}
+
+@-o-keyframes two
+{
+0%		{transform: rotate(360deg);}
+100%	{transform: rotate(0deg);}
+}
+@keyframes tree
+{
+0%		{transform: rotate(360deg);}
+100%	{transform: rotate(0deg);}
+}
+
+@-webkit-keyframes tree
+{
+0%		{transform: rotate(360deg);}
+100%	{transform: rotate(0deg);}
+}
+
+@-moz-keyframes tree
+{
+0%		{transform: rotate(360deg);}
+100%	{transform: rotate(0deg);}
+}
+
+@-o-keyframes tree
+{
+0%		{transform: rotate(360deg);}
+100%	{transform: rotate(0deg);}
+}
+
+.closed {
+	background:url(closed.png);
+	width: 1024px;
+	height: 300px;
+	margin: 180px -50px;
+}
+.top {
+	background:url(top.png);
+	width: 100px;
+	height: 100px;
+	margin: -50px 340px;
+}
