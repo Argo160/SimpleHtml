@@ -9,3 +9,5 @@ Run the below code and it will update and upgrade the OS then will install the A
 ```shell
 bash SimpleHtml/MakePage.sh
 ```
+The Sample:
+![alt text](https://github.com/Argo160/SimpleHtml/blob/main/Under_Construction/Capture.PNG)
