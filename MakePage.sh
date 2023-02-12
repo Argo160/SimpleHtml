@@ -11,3 +11,4 @@ clear
 cd SimpleHtml/Under_Construction
 mv * /var/www/html
 cd
+rm -r SimpleHtml
