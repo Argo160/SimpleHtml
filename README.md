@@ -13,5 +13,11 @@ Run the below code and it will update and upgrade the OS then will install the A
 cd SimpleHtml
 bash MakePage.sh
 ```
+
+*If the Apache is already installed on your machine, Run the below code
+```shell
+cd SimpleHtml
+bash MakerPage2.sh
+```
 The Sample:
 ![alt text](https://github.com/Argo160/SimpleHtml/blob/main/Under_Construction/Capture.PNG)
